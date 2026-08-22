@@ -1,3 +1,6 @@
+![NetRover32](NetRover32.jpg)
+
+
 # NetRover32
 Long-range ESP32-based rover using a distributed network control system to achieve impressively low latency over very long distances.
 
