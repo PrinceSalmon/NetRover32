@@ -1,4 +1,4 @@
-![NetRover32](images/NetRoverr32.jpg)
+![NetRover32](images/NetRover32.jpg)
 
 
 # NetRover32
