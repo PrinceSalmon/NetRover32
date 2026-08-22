@@ -15,4 +15,4 @@ The only problem remaining was how to further push these commands from the Node.
 
 This ended up being a very sucessful control system, in multiple benchmark test I was able to consistently stay under 40 ms latency (from userinput to actuation) while having highly reliable control multiple kilometers from the clientside. As for the vehicles live video feed i decided to send it with webRTC which is a peer to peer communication system which allows video and voice to be transmitted. I decided to have the videofeed transmitted from the server to the client from a single direction for lower latency. Attached below is a simple summary of the Distributed Network Control System.
 
-![Distributed Network Control System](images/DNCS.jpg)
+![Distributed Network Control System](images/DNCS_diagram.jpg)
