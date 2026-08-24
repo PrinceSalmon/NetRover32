@@ -24,7 +24,7 @@ This ended up being a very sucessful control system, in multiple benchmark test 
 
 After figuring out the DNCS, the next step would be to implement it in some soft of vessle. While originally intended to be used in an aircraft, for a practical prototype i decided on a robust heavy rover-like vehicle. Around that time, I also had an old hoverboard laying around and decided then to repurpose its wheels for a rover. A steel frame with bolted wheels and space for future component mounts quickly became the leading design. I also decided to engineer a controllable 2-axis camera to be able to look around the environment. I also designed two internal component boxes, one for the power electronics and one for the overall control and function. The final CAD design:
 
-
+![Final CAD Design](images/Final_NET32_CAD.png)
 
 
 
