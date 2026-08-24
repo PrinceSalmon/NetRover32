@@ -28,7 +28,7 @@ After figuring out the DNCS, the next step would be to implement it in some soft
 
 Construction of the frame began with about 5 meters of 30x30mm square steel tubing being cut into pieces and welded. Since I didn't own a chop saw to make straight cuts, I brought in an old, used one to make the necessary cuts. With the square tube pieces, I welded everything together and started drilling holes for the bolts to be mounted. With the basic steel frame completed, the hoverboard wheels and castor wheels were bolted onto the final frame.
 
-![Bolted Frame](images/Cut_weld.jpg)
+![Bolted Frame](images/Cut_Weld.jpg)
 
 
 
