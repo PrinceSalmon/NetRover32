@@ -16,6 +16,24 @@ Socket.IO became the obvious solution for this as it offers bi directional, low 
 
 The only problem remaining was how to further push these commands from the Node.Js server to the ESP32. Coincedentally while working on this project, I stumbled upon someone with someone with a library the fitted my need. @ZanzyTHEbar had developed a library based on another community library [ESP32Async](https://github.com/ESP32Async/AsyncTCP). This would allow me the host an Async TCP server on the ESP32 within the LAN. Using a REST API I could send the inputs as parameters to the ESP32 server's URL where the ESP32 can grab the parameters and use them as real PWM values. Because of everything being contained in the same LAN the latency of all of this was negligible compared with the WAN connection. I decided to use Axios to call the REST API as it was lightewight and could be seemlessly integrated into my already existing Node.js server.
 
-This ended up being a very sucessful control system, in multiple benchmark test I was able to consistently stay under 40 ms latency (from userinput to actuation) while having highly reliable control multiple kilometers from the clientside. As for the vehicles live video feed i decided to send it with webRTC which is a peer to peer communication system which allows video and voice to be transmitted. I decided to have the videofeed transmitted from the server to the client from a single direction for lower latency. Attached below is a simple summary of the Distributed Network Control System.
+This ended up being a very sucessful control system, in multiple benchmark test I was able to consistently stay under 40 ms latency (from userinput to actuation) while having highly reliable control multiple kilometers from the clientside. As for the vehicles live video feed i decided to send it with webRTC which is a peer to peer communication system which allows video and voice to be transmitted. I decided to have the video feed transmitted from the server to the client from a single direction for lower latency. Attached below is a simple summary of the Distributed Network Control System.
 
 ![Distributed Network Control System](images/DNCS_diagram.jpg)
+
+# Vessle design & build
+
+After figuring out the DNCS, the next step would be to implement it in some soft of vessle. While originally intended to be used in an aircraft, for a practical prototype i decided on a robust heavy rover-like vehicle. Around that time, I also had an old hoverboard laying around and decided then to repurpose its wheels for a rover. A steel frame with bolted wheels and space for future component mounts quickly became the leading design. I also decided to engineer a controllable 2-axis camera to be able to look around the environment. I also designed two internal component boxes, one for the power electronics and one for the overall control and function. The final CAD design:
+
+
+
+
+
+
+
+
+
+
+
+
+
+The power the hoverboard motors i bought third party high-power ESC's made for high power BLDC motors. These motorcontrollers also supported PWM-signals as input which worked perfectly with my  
