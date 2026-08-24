@@ -30,8 +30,9 @@ Construction of the frame began with about 5 meters of 30x30mm square steel tubi
 
 ![Bolted Frame](images/Cut_Weld.jpg)
 
+# Power system & electronics
 
-
+To power the vehicle i had acquired two highpower 36V Li-Ion batteries originally intended for hoverboard motors. I dedicated one of them to powering the two motors and another for the general electronics. In practice this turned out not be enough and had to later add two supplementary 12V LiPo batteries to meet the systems capacity.
 
 
 
