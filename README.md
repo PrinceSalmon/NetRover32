@@ -32,9 +32,10 @@ Construction of the frame began with about 5 meters of 30x30mm square steel tubi
 
 # Power system & electronics
 
-To power the vehicle, I had acquired two high-power 36V Li-Ion batteries originally intended for hoverboard motors. I dedicated one of them to powering the two motors and another to the general electronics. In practice, this turned out not be enough, and I had to later add two supplementary 12V LiPo batteries to meet the system's capacity. To control the hoverboard motors, I bought third-party high-power ESCs made for high-power BLDC motors. These motor controllers also supported PWM signals as input, which worked perfectly with my ESP32. These motor controllers being cheap and having lackluster documentation lead to me frying a handful of them, in future projects i will be sure to use quality and documented products.
+To power the vehicle, I had acquired two high-power 36V Li-Ion batteries originally intended for hoverboard motors. I dedicated one of them to powering the two motors and another to the general electronics. In practice, this turned out not be enough, and I had to later add two supplementary 12V LiPo batteries to meet the system's capacity.
 
 
+To control the hoverboard motors, I bought third-party high-power ESCs made for high-power BLDC motors. These motor controllers also supported PWM signals as input, which worked perfectly with my ESP32. These motor controllers being cheap and having lackluster documentation lead to me frying a handful of them, in future projects i will be sure to use quality and documented products.
 
 
 To host the Node.Js server and transmit the video feed, I brought in a Raspberry Pi 5 clone that connected to an ordinary router running data. For better user interaction, a USB hub and HDMI screen were mounted onto the frame, so that any bug fixes or small adjustments could be made on the rover and didn't require being plugged into external user devices. To power the Pi 5 clone, screen, servos, etc multiple step-down converters were needed, adding complexity to the total circuit. In later iterations of the power system, I installed clear and reliable power switches to avoid having to plug and unplug connectors every time it was in use or not.
