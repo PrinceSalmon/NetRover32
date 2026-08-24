@@ -36,10 +36,20 @@ To power the vehicle, I had acquired two high-power 36V Li-Ion batteries origina
 
 ![Battery](images/Battery_Power.jpg)
 
-To control the hoverboard motors, I bought third-party high-power ESCs made for high-power BLDC motors. These motor controllers also supported PWM signals as input, which worked perfectly with my ESP32. These motor controllers being cheap and having lackluster documentation lead to me frying a handful of them trying to configure them correctly, in future projects i will be sure to use quality and documented products.
+To control the hoverboard motors, I bought third-party high-power ESCs made for high-power BLDC motors. These motor controllers also supported PWM signals as input, which worked perfectly with my ESP32. These motor controllers, being cheap and having lackluster documentation, led to me frying a handful of them trying to configure them correctly. In future projects, I will be sure to use quality and documented products.
 
 ![Fried Boards :(](images/Fried_Boards.jpg)
 
 To host the Node.Js server and transmit the video feed, I brought in a Raspberry Pi 5 clone that connected to an ordinary router running data. For better user interaction, a USB hub and HDMI screen were mounted onto the frame, so that any bug fixes or small adjustments could be made on the rover and didn't require being plugged into external user devices. To power the Pi 5 clone, screen, servos, etc multiple step-down converters were needed, adding complexity to the total circuit. In later iterations of the power system, I installed clear and reliable power switches to avoid having to plug and unplug connectors every time it was in use or not.
 
 ![Electronics :(](images/Power_Elec.jpg)
+
+# User integration & results
+
+To control the rover, the server opens a server for the client to access via a browser. I forwarded the server using Cloudflare tunneling for higher security and ease of setup. The user can simply access the URL (esp32httpreq.com) where the browser immediately logs and emits the user's inputs to the vehicle. The browser server at the same time sends a live video feed to the client via WebRTC. With simple keyboard inputs, the user gains complete access to the rover and can now control the 2-axis camera, steer the rover, and observe the surroundings via the video feed. The soldered power switches make switching the rover on and off seamless and safe. Each power switch powers a certain set of electronics, making sure the user can test every stage before the rover completely powers on. One future fix is to make charging the rover more convenient, as I had no charger for the large Li-Ion batteries. Instead, I was forced to charge it using the previous hoverboard's main motherboard circuit. This is both unsafe and quite inelegant. 
+
+![Charging :(](images/Rover_Charging.jpg)
+
+
+
+
