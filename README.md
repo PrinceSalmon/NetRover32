@@ -46,7 +46,7 @@ To host the Node.Js server and transmit the video feed, I brought in a Raspberry
 
 # User integration
 
-To control the rover, the server opens a server for the client to access via a browser. I forwarded the server using Cloudflare tunneling for higher security and ease of setup. The user can simply access the URL (esp32httpreq.com) where the browser immediately logs and emits the user's inputs to the vehicle. The browser server at the same time sends a live video feed to the client via WebRTC. With simple keyboard inputs, the user gains complete access to the rover and can now control the 2-axis camera, steer the rover, and observe the surroundings via the video feed. The soldered power switches make switching the rover on and off seamless and safe. Each power switch powers a certain set of electronics, making sure the user can test every stage before the rover completely powers on. One future fix is to make charging the rover more convenient, as I had no charger for the large Li-Ion batteries. Instead, I was forced to charge it using the previous hoverboard's main motherboard circuit. 
+To control the rover, the server opens a server for the client to access via a browser. I forwarded the server using Cloudflare tunneling for higher security and ease of setup. The user can simply access the URL (esp32httpreq.com) where the browser immediately logs a,nd emits the user's inputs to the vehicle. The browser server at the same time sends a live video feed to the client via WebRTC. With simple keyboard inputs, the user gains complete access to the rover and can now control the 2-axis camera, steer the rover, and observe the surroundings via the video feed. The soldered power switches make switching the rover on and off seamless and safe. Each power switch powers a certain set of electronics, making sure the user can test every stage before the rover completely powers on. One future fix is to make charging the rover more convenient, as I had no charger for the large Li-Ion batteries. Instead, I was forced to charge it using the previous hoverboard's main motherboard circuit. 
 
 ![Charging :(](images/Rover_Charging.jpg)
 
@@ -66,7 +66,11 @@ The overall concept and implementation of the DNCS, while successful, had many p
 
 # Gallery 
 
+Miscellaneous images of the project:
 
+![NetRover32](images/Gallery_1.jpg)
+
+![NetRover32](images/Gallery_2.jpg)
 
 
 
