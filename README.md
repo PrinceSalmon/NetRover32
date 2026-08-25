@@ -61,6 +61,7 @@ The control and maneuvering, and the response time felt very intuitive and effec
 
 # Future considerations
 
+The overall concept and implementation of the DNCS, while successful, have many practical problems. For one, the overall circuitry and electronics are very bulky, broad, and messy, which would make it less than ideal if used in an aircraft. Perhaps an integrated circuit board comprising all the core components and functions. Downsizing and cutting down the system and focusing more resources on the weaker parts of the system would also lead to potentially better performance. I plan to revisit this project in the future by constructing a dedicated functional PCB and perhaps add autonomy control in an aircraft.
 
 # Gallery
 
