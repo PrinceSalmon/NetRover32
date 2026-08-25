@@ -32,7 +32,7 @@ Construction of the frame began with about 5 meters of 30x30mm square steel tubi
 
 # Power system & electronics
 
-To power the vehicle, I had acquired two high-power 36V Li-Ion batteries originally intended for hoverboard motors. I dedicated one of them to powering the two motors and another to the general electronics. In practice, this turned out not be enough, and I had to later add two supplementary 12V LiPo batteries to meet the system's capacity.
+To power the vehicle, I had acquired two high-power 36V Li-Ion batteries originally intended for hoverboard motors. I dedicated one of them to powering the two motors and another to the general electronics. In practice, this turned out not to be enough, and I had to later add two supplementary 12V LiPo batteries to meet the system's capacity.
 
 ![Battery](images/Battery_Power.jpg)
 
@@ -61,7 +61,7 @@ The control and maneuvering, and the response time felt very intuitive and effec
 
 # Future considerations
 
-The overall concept and implementation of the DNCS, while successful, have many practical problems. For one, the overall circuitry and electronics are very bulky, broad, and messy, which would make it less than ideal if used in an aircraft. Perhaps an integrated circuit board comprising all the core components and functions. Downsizing and cutting down the system and focusing more resources on the weaker parts of the system would also lead to potentially better performance. I plan to revisit this project in the future by constructing a dedicated functional PCB and perhaps add autonomy control in an aircraft.
+The overall concept and implementation of the DNCS, while successful, had many practical problems. For one, the overall circuitry and electronics were very bulky, broad, and messy, which would make it less than ideal if used in an aircraft. Perhaps a circuit board comprising all the core components and functions. Downsizing and cutting down the system and focusing more resources on the weaker parts of the system would also lead to potentially better performance. I plan to revisit this project in the future by constructing a dedicated functional PCB and perhaps add autonomy control in an aircraft. Under 40 ms, while low, is still less than ideal for certain aircraft, such as a higher-speed FPV quadcopter. I believe this system is therefore more reserved for larger fixed-wing aircraft.  
 
 # Gallery
 
