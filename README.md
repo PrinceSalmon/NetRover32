@@ -57,13 +57,14 @@ This is both unsafe and not very elegant. The attached screen and available exte
 Overall, and by all practical metrics, I deemed this project a huge success. The DNCS proved successful in providing a reliable, lightweight, and, most importantly, low-latency method of delivering inputs to a vehicle. In many measured benchmarks, the one-way latency within the same city (with acceptable network conditions) was consistently under 40 ms. Testing from another country (6300 km distance), I found the latency to be consistently under 120 ms. These results are among the best I've seen from other similar-themed projects. The video attached below demonstrates me maneuvering flawlessly from my front gate to the local park (total path 2.4km):
 
 
+
 The control and maneuvering, and the response time felt very intuitive and effective. Due to safety concerns both for the rover and the general public, I had someone physically following the rover. 
 
 # Future considerations
 
 The overall concept and implementation of the DNCS, while successful, had many practical problems. For one, the overall circuitry and electronics were very bulky, broad, and messy, which would make it less than ideal if used in an aircraft. Perhaps a circuit board comprising all the core components and functions. Downsizing and cutting down the system and focusing more resources on the weaker parts of the system would also lead to potentially better performance. I plan to revisit this project in the future by constructing a dedicated functional PCB and perhaps add autonomy control in an aircraft. Under 40 ms, while low, is still less than ideal for certain aircraft, such as a higher-speed FPV quadcopter. I believe this system is therefore more reserved for larger fixed-wing aircraft.  
 
-# Gallery
+# Gallery 
 
 
 
