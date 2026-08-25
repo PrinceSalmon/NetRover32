@@ -56,7 +56,7 @@ This is both unsafe and not very elegant. The attached screen and available exte
 
 Overall, and by all practical metrics, I deemed this project a huge success. The DNCS proved successful in providing a reliable, lightweight, and, most importantly, low-latency method of delivering inputs to a vehicle. In many measured benchmarks, the one-way latency within the same city (with acceptable network conditions) was consistently under 40 ms. Testing from another country (6300 km distance), I found the latency to be consistently under 120 ms. These results are among the best I've seen from other similar-themed projects. The video attached below demonstrates me maneuvering flawlessly from my front gate to the local park (total path 2.4km):
 
-[▶Timelapse](images/Rover_Timelapse.mp4)
+https://github.com/user-attachments/assets/141da6dd-d99a-402f-b22e-6504e3141344
 
 The control and maneuvering, and the response time felt very intuitive and effective. Due to safety concerns both for the rover and the general public, I had someone physically following the rover. 
 
